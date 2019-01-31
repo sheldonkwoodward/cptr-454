@@ -5,7 +5,7 @@ Homework 4
 ++++++++++
 An implementation of an efficient closest point finding algorithm.
 
-To execute the soltion, run:
+To execute the solution, run:
 
 ::
 

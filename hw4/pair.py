@@ -6,6 +6,13 @@ from random import randint
 
 
 def closest_pair(p, q):
+    """
+    Finds the distance between the two closest points in a set of points.
+
+    :param p: The first list of two-tuple points sorted by ascending x-value. Must contain the same points as q.
+    :param q: The second lest of two-tuple points sorted by ascending y-value. Must contain the same points as p.
+    :return: Returns the distance between the two closest points in the lists.
+    """
     # get the number of points
     n = len(p)
     if n != len(q):

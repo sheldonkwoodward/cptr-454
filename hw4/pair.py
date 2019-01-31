@@ -56,7 +56,7 @@ def __main__():
     num_points = 20
     points = list()
     print('POINTS')
-    for p in range(randint(2, num_points)):
+    for p in range(num_points):
         points.append((randint(0, 2000) / 100, randint(0, 2000) / 100))
         print(f'  {points[-1]}')
     # sort points into P and Q
